@@ -25,8 +25,7 @@ I have a year experience in front-end development. During my career, I participa
 - Tailwind
 - BEM
 - JavaScript
-- React
-- Redux
+- React & Redux
 - Next.js
 - Node.js
 - Express.js
@@ -36,18 +35,42 @@ I have a year experience in front-end development. During my career, I participa
 
 ## Code Examples
 
-    function sameCase(a, b){
+```javascript
+function sameCase(a, b) {
+	const REGEX = {
+		isCapital: /[A-Z]/,
+		isSmall: /[a-z]/,
+		isLetter: /^[a-zA-Z]+$/,
+	}
 
-      const REGEX = {
-        isCapital: /[A-Z]/,
-        isSmall: /[a-z]/,
-        isLetter: /^[a-zA-Z]+$/
-      }
+	const isLetter = REGEX.isLetter.test(a + b)
+	const bothCapital = REGEX.isCapital.test(a) && REGEX.isCapital.test(b)
+	const bothSmall = REGEX.isSmall.test(a) && REGEX.isSmall.test(b)
 
-      const isLetter = REGEX.isLetter.test(a + b)
-      const bothCapital = REGEX.isCapital.test(a) && REGEX.isCapital.test(b)
-      const bothSmall = REGEX.isSmall.test(a) && REGEX.isSmall.test(b)
+	return isLetter ? (bothCapital || bothSmall ? 1 : 0) : -1
+}
+```
 
-      return isLetter ? bothCapital || bothSmall ? 1 : 0 : -1
+## Experience
 
-    }
+- [Bugun](https://bugun.uz) - One of the largest news portals in Uzbekistan.
+  - HTML
+  - CSS/SCSS
+  - JavaScript
+  - ...
+- [idea](https://idea.uz) - Online store with 20+ branches in Uzbekistan
+  - JavaScript
+  - React.js
+  - Next.js
+  - ...
+
+## Education
+
+- **Tashkent State University in Uzbekistan** - Corporate Governance
+- **Udacity** - Full Stack Development
+- **LinkedIn** - Succeeding in Web Development: Full Stack and Front End
+- **YouTube** _(thousands of free courses)_
+
+## English
+
+**\* Intermediate** - I can’t speak with the speed of a native However, I’m able to hold conversations in the language and have adequate reading proficiency.
