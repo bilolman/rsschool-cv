@@ -1,6 +1,6 @@
 # Bilol Tuliboev
 
-:computer: Junior Front-End Developer
+**Junior Front-End Developer**
 
 ## Contacts
 
