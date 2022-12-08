@@ -15,7 +15,7 @@ Hi there! I'm a junior front-end developer aspiring to become a master in my fie
 
 Over the past few years of my career as a developer, I've made sure that I've chosen the right field. I can confidently say that my passion for continuous learning has helped me achieve great things throughout my career.
 
-I have a year experience in front-end development. During my career, I participated in many interesting and challenging projects. I am sure that the experience gained in the past will be useful in my future career.
+I have a year experience in front-end development. During my career, I participated in many interesting and challenging projects. I am sure that the experience I gained in the past few years will be useful in my future career.
 
 ## Skills
 
@@ -34,6 +34,8 @@ I have a year experience in front-end development. During my career, I participa
 - Git & GitHub
 
 ## Code Examples
+
+Write a function that will check if two given characters are the same case:
 
 ```javascript
 function sameCase(a, b) {
@@ -73,4 +75,4 @@ function sameCase(a, b) {
 
 ## English
 
-**\* Intermediate** - I can’t speak with the speed of a native However, I’m able to hold conversations in the language and have adequate reading proficiency.
+**\* Intermediate** - I can’t speak with the speed of a native. However, I’m able to hold conversations in the language and have adequate reading proficiency.
