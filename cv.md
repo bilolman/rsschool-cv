@@ -33,3 +33,21 @@ I have a year experience in front-end development. During my career, I participa
 - MongoDB
 - Gulp/Parcel
 - Git & GitHub
+
+## Code Examples
+
+    function sameCase(a, b){
+
+      const REGEX = {
+        isCapital: /[A-Z]/,
+        isSmall: /[a-z]/,
+        isLetter: /^[a-zA-Z]+$/
+      }
+
+      const isLetter = REGEX.isLetter.test(a + b)
+      const bothCapital = REGEX.isCapital.test(a) && REGEX.isCapital.test(b)
+      const bothSmall = REGEX.isSmall.test(a) && REGEX.isSmall.test(b)
+
+      return isLetter ? bothCapital || bothSmall ? 1 : 0 : -1
+
+    }
