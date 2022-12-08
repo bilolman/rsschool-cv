@@ -1,5 +1,3 @@
-![GitHub Profile Image](https://avatars.githubusercontent.com/u/66999197?v=4)
-
 # Bilol Tuliboev
 
 :computer: Junior Front-End Developer
