@@ -1,0 +1,78 @@
+# Bilol Tuliboev
+
+**Junior Front-End Developer**
+
+## Contacts
+
+- **_Email_**: [tuliboevbilol@gmail.com](mailto:tuliboevbilol@gmail.com)
+- **_Telegram_**: [@tuliboevbilol](https://t.me/tuliboevbilol)
+- **_LinkedIn_**: [@biloltuliboev](https://linkedin.com/in/biloltuliboev)
+- **_Twitter_**: [@biloltuliboev](https://twitter.com/biloltuliboev)
+
+## About me
+
+Hi there! I'm a junior front-end developer aspiring to become a master in my field.
+
+Over the past few years of my career as a developer, I've made sure that I've chosen the right field. I can confidently say that my passion for continuous learning has helped me achieve great things throughout my career.
+
+I have a year experience in front-end development. During my career, I participated in many interesting and challenging projects. I am sure that the experience I gained in the past few years will be useful in my future career.
+
+## Skills
+
+- HTML
+- CSS
+- SCSS
+- Tailwind
+- BEM
+- JavaScript
+- React & Redux
+- Next.js
+- Node.js
+- Express.js
+- MongoDB
+- Gulp/Parcel
+- Git & GitHub
+
+## Code Examples
+
+Write a function that will check if two given characters are the same case:
+
+```javascript
+function sameCase(a, b) {
+	const REGEX = {
+		isCapital: /[A-Z]/,
+		isSmall: /[a-z]/,
+		isLetter: /^[a-zA-Z]+$/,
+	}
+
+	const isLetter = REGEX.isLetter.test(a + b)
+	const bothCapital = REGEX.isCapital.test(a) && REGEX.isCapital.test(b)
+	const bothSmall = REGEX.isSmall.test(a) && REGEX.isSmall.test(b)
+
+	return isLetter ? (bothCapital || bothSmall ? 1 : 0) : -1
+}
+```
+
+## Experience
+
+- [Bugun](https://bugun.uz) - One of the largest news portals in Uzbekistan.
+  - HTML
+  - CSS/SCSS
+  - JavaScript
+  - ...
+- [idea](https://idea.uz) - Online store with 20+ branches in Uzbekistan
+  - JavaScript
+  - React.js
+  - Next.js
+  - ...
+
+## Education
+
+- **Tashkent State University in Uzbekistan** - Corporate Governance
+- **Udacity** - Full Stack Development
+- **LinkedIn** - Succeeding in Web Development: Full Stack and Front End
+- **YouTube** _(thousands of free courses)_
+
+## English
+
+**\* Intermediate** - I can’t speak with the speed of a native. However, I’m able to hold conversations in the language and have adequate reading proficiency.
